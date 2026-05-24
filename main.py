@@ -1,8 +1,3 @@
-from helpers import save_expenses, load_expenses
-
-EXPENSE_FILE = "expenses.json"
-
-
 def main():
     pass
 
