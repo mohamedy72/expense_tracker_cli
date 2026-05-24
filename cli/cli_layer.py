@@ -6,6 +6,7 @@ def cli_entry():
     subparsers = parser.add_subparsers(
         title="subcommands", help="Expenses tracker", dest="action"
     )
+
     # Subcommand for adding a new expense
     add_action = subparsers.add_parser("add", help="Add new expense")
     add_action.add_argument(

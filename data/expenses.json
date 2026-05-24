@@ -1,0 +1,16 @@
+[
+    {
+        "id": 41.0,
+        "category": "food",
+        "amount": 50.0,
+        "desc": "lunch",
+        "date": 1779624505.2498791
+    },
+    {
+        "id": 18.5,
+        "category": "transport",
+        "amount": 30.0,
+        "desc": "uber ride",
+        "date": 1779624515.373182
+    }
+]
