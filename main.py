@@ -1,6 +1,6 @@
 from pathlib import Path
 from cli import cli_entry
-from features import add_expense
+from features import add_expense, list_expenses
 from helpers import init_store, save_expenses, load_expenses
 
 CURRENT_DIR = Path.cwd()
@@ -26,6 +26,12 @@ def main():
         )
         expenses.append(new_exp)
         save_expenses(expenses, STORE_LOCATION)
+    elif arguments.action == "list":
+        print(arguments)
+        if arguments.category:
+            list_expenses(expenses, arguments.category)
+        else:
+            list_expenses(expenses)
 
 
 if __name__ == "__main__":

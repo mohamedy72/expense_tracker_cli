@@ -23,7 +23,7 @@ def cli_entry():
         "--category",
         type=str,
         help="List all expenses with specific category",
-        default="General",
+        default="",
         metavar="FILTER",
     )
 
