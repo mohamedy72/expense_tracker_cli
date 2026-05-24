@@ -1,5 +1,10 @@
+from helpers import save_expenses, load_expenses
+
+EXPENSE_FILE = "expenses.json"
+
+
 def main():
-    print("Hello from expense-tracker-cli!")
+    pass
 
 
 if __name__ == "__main__":
