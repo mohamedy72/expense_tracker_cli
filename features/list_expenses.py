@@ -1,5 +1,4 @@
 def list_expenses(expenses, category: None = None):
-
     for i, exp in enumerate(expenses, 1):
         if category:
             if exp["category"] == category:
